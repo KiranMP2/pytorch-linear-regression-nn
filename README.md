@@ -58,8 +58,8 @@ y_train_tensor = torch.tensor(y_train, dtype=torch.float32).view(-1, 1)
 X_test_tensor = torch.tensor(X_test, dtype=torch.float32)
 y_test_tensor = torch.tensor(y_test, dtype=torch.float32).view(-1, 1)
 
-# Name: I S ISHITA
-# Register Number:212224220038
+# Name: KIRAN M P
+# Register Number:212224230123
 class NeuralNet(nn.Module):
   def __init__(self):
         super().__init__()
@@ -80,8 +80,7 @@ criterion = nn. MSELoss ()
 optimizer = optim.RMSprop (lig. parameters(), lr=0.001)
 loss_history = []
 
-# Name: I S ISHITA
-# Register Number:212224220038
+
 def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range (epochs) :
       optimizer. zero_grad()
